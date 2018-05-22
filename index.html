@@ -9,335 +9,70 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
         crossorigin="anonymous">
-
-    <style>
-        @media only screen and (max-width: 800px) {
-
-            .cf:after {
-                visibility: hidden;
-                display: block;
-                font-size: 0;
-                content: " ";
-                clear: both;
-                height: 0;
-            }
-            * html .cf {
-                zoom: 1;
-            }
-            *:first-child+html .cf {
-                zoom: 1;
-            }
-
-            table {
-                width: 100%;
-                border-collapse: collapse;
-                border-spacing: 0;
-            }
-
-            th,
-            td {
-                margin: 0;
-                vertical-align: top;
-            }
-            th {
-                text-align: left;
-            }
-
-            table {
-                display: block;
-                position: relative;
-                width: 100%;
-            }
-            thead {
-                display: block;
-                float: left;
-            }
-            tbody {
-                display: block;
-                width: auto;
-                position: relative;
-                overflow-x: auto;
-                white-space: nowrap;
-            }
-            thead tr {
-                display: block;
-            }
-            th {
-                display: block;
-                text-align: right;
-            }
-            tbody tr {
-                display: inline-block;
-                vertical-align: top;
-            }
-            td {
-                display: block;
-                min-height: 1.25em;
-                text-align: left;
-            }
-
-
-            /* sort out borders */
-            th {
-                border-bottom: 0;
-                border-left: 0;
-            }
-            td {
-                border-left: 0;
-                border-right: 0;
-                border-bottom: 0;
-            }
-            tbody tr {
-                border-left: 1px solid #babcbf;
-            }
-            th:last-child,
-            td:last-child {
-                border-bottom: 1px solid #babcbf;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <div class="container-fluid"></div>
-    <div class="card">
-        <div class="card-header">
-            Gerenciar Perguntas/Comentários
+    <div class="container">
 
-        </div>
-        <div class="card-body">
-            <div class="form-group">
-                <div class="col">
-                    <a href="" class="btn btn-primary">Listar novos</a>
+        <div class="custom-table">
+            <div class="table-header-mobile visible-xs">3 Items</div>
+            <div class="table-header hidden-xs">
+                <div class="table-row">
+                    <div class="table-column menu">Menu</div>
+                    <div class="table-column amount">Quantity</div>
+                    <div class="table-column price">Price</div>
+                    <div class="table-column delete">x</div>
                 </div>
             </div>
-
-            <div class="row">
-            </div>
-            <div class="col-md-9 col-md-push-3">
-            </div>
-            <div class="col-md-9 col-md-push-3">
-            </div>
-            <div class="col-md-9 col-md-push-3">
-
-            </div>
-            <div class="col-md-9 col-md-push-3">
-            </div>
-            <div class="col-md-9 col-md-push-3">
-            </div>
-            <div class="col-md-9 col-md-push-3">
-            </div>
-            <div class="col-md-9 col-md-push-3">
-            </div>
-            <div class="row col">
-            </div>
-            <div class="col-md-9 col-md-push-3">
-            </div>
-            <div class="col-md-9 col-md-push-3">
-            </div>
-            <div class="col-md-9 col-md-push-3">
-
-            </div>
-            <div class="col-md-9 col-md-push-3">
-            </div>
-            <div class="col-md-9 col-md-push-3">
-            </div>
-            <div class="col-md-9 col-md-push-3">
-            </div>
-            <div class="col-md-9 col-md-push-3">
-            </div>
-            <table class="table col-sm-12 col-md-8 col-xl-12 table-hover table-responsive">
-                <thead class="cf">
-                    <tr>
-                        <th>
-                            #ID
-                        </th>
-
-
-                        <th>
-                            Email
-                        </th>
-
-
-                        <th>
-                            Nome
-                        </th>
-
-
-                        <th>
-                            Assunto
-                        </th>
-
-
-
-                        <th>
-                            Pergunta/Comentário
-                        </th>
-
-
-                        <th>
-                            Status
-                        </th>
-
-
-                        <th></th>
-
-
-                    </tr>
-
-                </thead>
-
-                <tbody class="cf">
-                    <tr class="accordion-toggle" id="t0eb1e1f-fe1e-4943-925b-eedd14840841">
-                        <td>
-                            <span class="text-bold">t0eb1e</span>
-                            <input id="item_Id" name="item.Id" value="t0eb1e1f-fe1e-4943-925b-eedd14840841" type="hidden">
-                        </td>
-
-
-                        <td>
-                            desenvolvimento@fazendomais.com.br
-                            <input data-val="true" data-val-maxlength="Máximo Email caracteres" data-val-maxlength-max="150" data-val-minlength="Mínimo Email caracteres"
-                                data-val-minlength-min="5" data-val-required="Preencha o campo E-mail" id="item_Email" name="item.Email"
-                                value="desenvolvimento@fazendomais.com.br" type="hidden">
-                        </td>
-
-
-                        <td>
-                            17/05/2018 15:44:54
-                            <input data-val="true" data-val-maxlength="Máximo Nome caracteres" data-val-maxlength-max="150" data-val-minlength="Mínimo Nome caracteres"
-                                data-val-minlength-min="2" data-val-required="Preencha o campo Nome" id="item_Nome" name="item.Nome"
-                                value="17/05/2018 15:44:54" type="hidden">
-                        </td>
-
-
-
-                        <td>
-                            O que Front End
-                            <input data-val="true" data-val-maxlength="Máximo Assunto caracteres" data-val-maxlength-max="50" data-val-minlength="Mínimo Assunto caracteres"
-                                data-val-minlength-min="2" data-val-required="Preencha o campo Assunto" id="item_Assunto" name="item.Assunto"
-                                value="O que Front End" type="hidden">
-                        </td>
-
-
-
-                        <td>
-                            <button id="btn-collapse" data-toggle="collapse" data-target="#t0eb1e" class="btn btn-primary" aria-expanded="true">Detalhes</button>
-                             <!-- Modal -->
-                    <div class="modal fade" id="t0eb1e" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        ...
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Save changes</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        </td>
-
-
-
-
-                        <td>
-                            <select data-val="true" data-val-required="O campo Status é obrigatório." id="item_Status" name="item.Status">
-                                <option value="SemResposta">Não respondido</option>
-                                <option value="NoLocal">Respondido no Local</option>
-                                <option value="ViaEmail">Respondido via Email</option>
-                            </select>
-                            <span class="field-validation-valid text-danger" data-valmsg-for="item.Status" data-valmsg-replace="true"></span>
-
-                        </td>
-
-
-
-                    </tr>
-
-                    <tr class="col collapse in" id="t0eb1e" style="">
-
-                        <td colspan="12" class="col">
-
-                            Lorem Ipsum do ID: t0eb1e1f-fe1e-4943-925b-eedd14840841
-                            <input data-val="true" data-val-maxlength="Máximo Pergunta/Comentário caracteres" data-val-maxlength-max="1000" data-val-minlength="Mínimo Pergunta/Comentário caracteres"
-                                data-val-minlength-min="5" data-val-required="Preencha o campo Pergunta/Comentário" id="item_Comentario"
-                                name="item.Comentario" value="Lorem Ipsum do ID: t0eb1e1f-fe1e-4943-925b-eedd14840841" type="hidden">
-                        </td>
-
-                    </tr>
-                   
-
-
-                </tbody>
-
-            </table>
-            <hr>
-
-
-            <div class="form-group">
-                <div class="col">
-                    <button id="saveOrder" class="btn btn-success">Atualizar</button>
+            <div class="table-row">
+                <div class="table-column menu">
+                    <span>Chicken Noodle Soup</span>
+                    <span class="option">Option - Basic</span>
                 </div>
+                <div class="table-column amount">
+                    <div class="number-input">
+                        <span class="minus">-</span>
+                        <span class="number">1</span>
+                        <span class="plus">+</span>
+                    </div>
+                </div>
+                <div class="table-column price">$6.50</div>
+                <div class="table-column delete">x</div>
             </div>
-
+            <div class="table-row">
+                <div class="table-column menu">
+                    <span>Vegetable Soup</span>
+                    <span class="option">Option - Basic</span>
+                </div>
+                <div class="table-column amount">
+                    <div class="number-input">
+                        <span class="minus">-</span>
+                        <span class="number">1</span>
+                        <span class="plus">+</span>
+                    </div>
+                </div>
+                <div class="table-column price">$4.50</div>
+                <div class="table-column delete">x</div>
+            </div>
+            <div class="table-row">
+                <div class="table-column menu">
+                    <span>Toast</span>
+                    <span class="option">Option - Basic</span>
+                </div>
+                <div class="table-column amount">
+                    <div class="number-input">
+                        <span class="minus">-</span>
+                        <span class="number">1</span>
+                        <span class="plus">+</span>
+                    </div>
+                </div>
+                <div class="table-column price">$1.50</div>
+                <div class="table-column delete">x</div>
+            </div>
         </div>
+
     </div>
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-        crossorigin="anonymous"></script>
-
-    <script>
-        $(function () {
-
-
-            $(window).resize(function () {
-                //update stuff
-                
-                var width = screen.width;
-                if (width < 990) {
-                    var trHidden = $('tr').has('.col').hide();
-
-                    var btn = $('#btn-collapse').removeAttr('data-toggle');
-                    btn = $('#btn-collapse').attr('data-toggle', 'modal');
-                    var modal = $('div').find('.modal');
-
-
-                if(trHidden.attr('id').length > 0)
-                modal.attr('id', trHidden.attr('id'))
-                
-                trHidden.attr('id', '');
-                    //  console.log(modal.attr('id', trHidden.attr('id')));
-                    return;
-                }
-                var trHidden = $('tr').has('.col').show();
-                var modal = $('div').find('.modal');
-
-                if(modal.attr('id').length > 0)
-                trHidden.attr('id', modal.attr('id'))
-                
-                modal.attr('id', '');
-
-               
-                $('tr').has('.col').show()
-                $('#btn-collapse').attr('data-toggle', 'collapse');
-            });
-        });
-    </script>
 </body>
 
 </html>
