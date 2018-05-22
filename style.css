@@ -1,0 +1,133 @@
+/* Height variables */
+/* etc */
+body {
+  background-color: #d9d9d9;
+}
+
+.number-input {
+  /* margin-top: 20px; */
+  text-align: center;
+  border-radius: 5px;
+  display: inline-block;
+  border: 1px solid #ababab;
+  margin: 20px 0;
+}
+.number-input .minus, .number-input .number, .number-input .plus {
+  color: #ababab;
+  font-size: 20px;
+}
+.number-input .minus {
+  padding: 0px 10px 0 10px;
+  border-right: 1px solid #ababab;
+}
+.number-input .number {
+  padding: 0 30px;
+  border-right: 1px solid #ababab;
+}
+.number-input .plus {
+  padding: 0 10px;
+}
+
+.custom-table {
+  margin: 150px auto;
+}
+.custom-table .table-header .table-row {
+  border-bottom: none;
+}
+.custom-table .table-header .table-column {
+  text-align: center;
+}
+.custom-table .table-header-mobile, .custom-table .table-header {
+  padding: 10px 0;
+  border-top: 2px solid #666666;
+  border-bottom: 2px solid #666666;
+}
+.custom-table .table-row {
+  padding: 30px 0;
+  border-bottom: 1px solid #ababab;
+}
+.custom-table .table-row .table-column.menu {
+  display: block;
+}
+@media (min-width: 768px) {
+  .custom-table .table-row .table-column.menu {
+    display: inline-block;
+    width: 35%;
+  }
+}
+.custom-table .table-row .table-column.menu .option {
+  padding-left: 5px;
+}
+@media (min-width: 768px) {
+  .custom-table .table-row .table-column.menu .option {
+    display: block;
+    padding-left: 0;
+  }
+}
+.custom-table .table-row .table-column.amount {
+  display: inline-block;
+  width: 50%;
+}
+@media (min-width: 768px) {
+  .custom-table .table-row .table-column.amount {
+    width: 30%;
+  }
+}
+.custom-table .table-row .table-column.price {
+  display: inline-block;
+  text-align: right;
+  /* background-color: orange; */
+  width: 40%;
+}
+@media (min-width: 768px) {
+  .custom-table .table-row .table-column.price {
+    width: 20%;
+  }
+}
+.custom-table .table-row .table-column.delete {
+  display: inline-block;
+  text-align: right;
+  /* background-color: pink; */
+}
+@media (min-width: 768px) {
+  .custom-table .table-row .table-column.delete {
+    width: 10%;
+  }
+}
+
+table {
+  background-color: #d9d9d9;
+  margin: 150px auto;
+}
+
+thead tr th {
+  text-align: center;
+  padding: 10px 0;
+  border-top: 2px solid #666666;
+  border-bottom: 2px solid #666666;
+}
+
+tbody tr td {
+  padding: 30px;
+  border-bottom: 1px solid #ababab;
+}
+tbody tr td:first-child {
+  padding-left: 0;
+}
+tbody tr td.price-column {
+  text-align: right;
+}
+tbody tr td.amount-column {
+  display: block;
+}
+tbody tr td .table-text {
+  margin-top: 0;
+}
+tbody tr td h4, tbody tr td h5 {
+  display: inline-block;
+}
+@media (min-width: 992px) {
+  tbody tr td h4, tbody tr td h5 {
+    display: block;
+  }
+}
