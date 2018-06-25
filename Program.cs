@@ -10,7 +10,7 @@ namespace Sample.Nuget
     {
         static void Main(string[] args)
         {
-            Console.Write("Teste work...");
+            Console.Write("Teste");
         }
     }
 }
