@@ -1,0 +1,10 @@
+C:\Users\FM-Developer\source\repos\Sample.Nuget\Sample.Nuget\bin\Debug\Sample.Nuget.exe.config
+C:\Users\FM-Developer\source\repos\Sample.Nuget\Sample.Nuget\bin\Debug\Sample.Nuget.exe
+C:\Users\FM-Developer\source\repos\Sample.Nuget\Sample.Nuget\bin\Debug\Sample.Nuget.pdb
+C:\Users\FM-Developer\Downloads\test\Sample.Nuget.exe.config
+C:\Users\FM-Developer\Downloads\test\Sample.Nuget.exe
+C:\Users\FM-Developer\Downloads\test\Sample.Nuget.pdb
+C:\Users\FM-Developer\source\repos\Sample.Nuget\Sample.Nuget\obj\Debug\Sample.Nuget.exe
+C:\Users\FM-Developer\source\repos\Sample.Nuget\Sample.Nuget\obj\Debug\Sample.Nuget.pdb
+C:\Users\FM-Developer\source\repos\Sample.Nuget\Sample.Nuget\obj\Debug\Sample.Nuget.csprojAssemblyReference.cache
+C:\Users\FM-Developer\source\repos\Sample.Nuget\Sample.Nuget\obj\Debug\Sample.Nuget.csproj.CoreCompileInputs.cache

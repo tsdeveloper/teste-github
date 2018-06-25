@@ -1,0 +1,7 @@
+C:\Users\FM-Developer\Downloads\test\Sample.Nuget.exe.config
+C:\Users\FM-Developer\Downloads\test\Sample.Nuget.exe
+C:\Users\FM-Developer\Downloads\test\Sample.Nuget.pdb
+C:\Users\FM-Developer\source\repos\Sample.Nuget\Sample.Nuget\obj\Release\Sample.Nuget.csprojAssemblyReference.cache
+C:\Users\FM-Developer\source\repos\Sample.Nuget\Sample.Nuget\obj\Release\Sample.Nuget.csproj.CoreCompileInputs.cache
+C:\Users\FM-Developer\source\repos\Sample.Nuget\Sample.Nuget\obj\Release\Sample.Nuget.exe
+C:\Users\FM-Developer\source\repos\Sample.Nuget\Sample.Nuget\obj\Release\Sample.Nuget.pdb
