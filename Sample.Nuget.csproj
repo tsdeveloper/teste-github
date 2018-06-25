@@ -48,10 +48,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Scripts\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>nuget pack "$(ProjectPath)"
-COPY /Y "$(TargetDir)*.nupkg" "C:\Users\FM-Developer\Downloads\test"</PostBuildEvent>
+COPY /Y "$(TargetDir)*.nupkg" "C:\Users\FM-Developer\Downloads\test"
+call "$(ProjectDir)Scripts\git-pull-push.bat"
+</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
