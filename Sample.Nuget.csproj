@@ -55,7 +55,10 @@
   <PropertyGroup>
     <PostBuildEvent>nuget pack "$(ProjectPath)"
 COPY /Y "$(TargetDir)*.nupkg" "C:\Users\FM-Developer\Downloads\test"
-call "$(ProjectDir)Scripts\git.bat"
+git pull origin master
+git add .
+git commit -a -m "Projeto Atualizado Dlls"
+git push origin master -f
 </PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
