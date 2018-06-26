@@ -53,13 +53,8 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>nuget pack "$(ProjectPath)"
-COPY /Y "$(TargetDir)*.nupkg" "C:\Users\FM-Developer\source\repos\FM.ServerNuget.Local\FM.Nuget.Server\Packages"
-git pull origin master
-git add .
-git commit -a -m "Projeto Atualizado Dlls"
-git push origin master -f
-</PostBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

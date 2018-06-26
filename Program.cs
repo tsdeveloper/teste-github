@@ -10,7 +10,7 @@ namespace Sample.Nuget
     {
         static void Main(string[] args)
         {
-            Console.Write("Teste Git add pull e push");
+            Console.Write("Teste Git add pull");
         }
     }
 }
