@@ -54,7 +54,7 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>nuget pack "$(ProjectPath)"
-COPY /Y "$(TargetDir)*.nupkg" "C:\Users\FM-Developer\Downloads\test"
+COPY /Y "$(TargetDir)*.nupkg" "C:\Users\FM-Developer\source\repos\FM.ServerNuget.Local\FM.Nuget.Server\Packages"
 git pull origin master
 git add .
 git commit -a -m "Projeto Atualizado Dlls"
